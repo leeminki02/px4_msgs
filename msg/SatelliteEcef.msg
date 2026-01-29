@@ -1,7 +1,7 @@
 # topic for receiving satellite's velocity and position data from ephemeris translator
 
 uint64 timestamp		# time since system start (microseconds)
-uint8 SAT_INFO_MAX_SATELLITES = 24
+uint8 SAT_INFO_MAX_SATELLITES = 20
 
 uint8 count			# Number of satellites visible to the receiver
 uint8[20] svid	 		# Space vehicle ID [1..255], see scheme below
